@@ -6,7 +6,7 @@
     <title>Okan Naci</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="sticky">
+  <body class="sticky" onload="window.scrollTo(0, 0);">
     <header class="header">
       <img src="images/logo.png" alt="Personel Logo" class="logo" />
       <nav class="main-nav">
@@ -265,6 +265,42 @@
         </section>
       </section>
     </main>
-    <script src="script.js"></script>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Site logo" src="images/logo.png" />
+          </a>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Okan Naci. All
+            rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact Me</p>
+          <address class="contacts">
+            <p class="address">Isparta/Turkey</p>
+            <p>
+              <a class="footer-link" href="tel:05541478662">05541478662</a
+              ><br />
+              <a class="footer-link" href="mailto:okan2800@gmail.com"
+                >okan2800@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
