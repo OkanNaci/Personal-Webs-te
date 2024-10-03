@@ -381,3 +381,6 @@ body {
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+.color {
+  background-color: #fdf2e9;
+}
